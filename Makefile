@@ -13,16 +13,16 @@ node_modules: package.json
 	@npm install
 	@touch node_modules
 
-test: node_modules
-	${BIN}/babel-tape-runner test/*.js
+#test: node_modules
+#	${BIN}/babel-tape-runner test/*.js
 
 validate: node_modules
 	@${BIN}/standard
 
-all: validate test
+all: validate 
 
 #
 # Phony
 #
 
-.PHONY: test validate
+.PHONY:  validate
