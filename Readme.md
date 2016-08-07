@@ -21,7 +21,7 @@ applyMiddleware(multiConditionalMiddleware)(createStore)
 Using it:
 
 ```javascript
-import { ConditionalAction } from '../helpers/ConditionalAction.js'
+import { ConditionalAction } from 'redux-multi-conditional'
 
 function doSomething () {
   return [
