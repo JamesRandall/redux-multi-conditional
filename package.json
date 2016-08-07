@@ -2,7 +2,7 @@
   "name": "redux-multi-conditional",
   "description": "Dispatch multiple actions from one action creator optionally using a condition",
   "repository": "git://github.com/jamesrandall/redux-multi-conditional.git",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
