@@ -1,0 +1,18 @@
+{
+  "name": "redux-multi-conditional",
+  "description": "Dispatch multiple actions from one action creator optionally using a condition",
+  "repository": "git://github.com/jamesrandall/redux-multi-conditional.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "rm -rf lib && babel src --out-dir lib",
+    "postpublish": "rm -rf lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-tape-runner": "^2.0.0",
+    "tape": "^4.2.0"
+  }
+}
