@@ -5,7 +5,7 @@ Conditionally dispatch multiple actions from one action creator
 
 ## Installation
 
-    $ npm install redux-multi-conditional
+    $ npm install redux-multi-conditional --save
 
 ## Usage
 
